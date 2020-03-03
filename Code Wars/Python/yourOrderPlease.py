@@ -12,9 +12,10 @@ Examples
 """
 def order(sentence):
   s = sentence
-  sortIt = sorted(s, key = lambda x: int(x.split()[1]))
+  s = s.split(' ')
+  sorted(s, key = lambda) #lambda or regex? Idk stuck
   joinIt = ' '.join(sortIt) #combines the array
-  return joinIt
+  return s
 
 test = order("4of Fo1r pe6ople g3ood th5e the2")
 print(test)
